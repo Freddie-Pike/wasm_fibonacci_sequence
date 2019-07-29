@@ -11,13 +11,10 @@ function fibo(n) {
   switch (n) {
     case 0:
       return 1;
-      break;
     case 1:
       return 1;
-      break;
     default:
       return (fibo(n - 1) + fibo(n - 2));
-      break;
   }
 }
 
